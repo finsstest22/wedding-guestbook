@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#121317">
+  <title>픽셀 방명록</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<main class="guest-app">
+  <div class="topbar">
+    <span class="couple" id="coupleLabel">💌</span>
+    <span class="dots" id="dots"><i></i><i></i><i></i><i></i><i></i></span>
+  </div>
+
+  <!-- 1. 시작 -->
+  <section class="step" id="step-intro">
+    <div class="hero"><canvas id="introScene"></canvas></div>
+    <h1>셀카 한 장 = 입장권</h1>
+    <p class="lead">사진을 올리면 나랑 닮은 픽셀 캐릭터가 뚝딱 나와요.<br>축하 한마디를 남기면 식장 스크린의 꽃길로 입장합니다.</p>
+    <div class="spacer"></div>
+    <div class="actions">
+      <button class="btn" id="btnCamera">📷 셀카 찍기</button>
+      <button class="btn ghost" id="btnAlbum">앨범에서 사진 고르기</button>
+      <button class="btn link" id="btnNoPhoto">사진 없이 만들기</button>
+    </div>
+    <p class="note"><span>🔒</span><span>사진은 서버로 보내지 않아요. 휴대폰 안에서 머리·피부·옷 색만 읽고 바로 지워요.</span></p>
+    <input type="file" accept="image/*" capture="user" id="fileCamera" hidden>
+    <input type="file" accept="image/*" id="fileAlbum" hidden>
+  </section>
+
+  <!-- 2. 사진 맞추기 -->
+  <section class="step hidden" id="step-crop">
+    <h2>얼굴을 점선 안에 맞춰 주세요</h2>
+    <div class="crop" id="cropBox">
+      <canvas id="cropCanvas" width="600" height="600"></canvas>
+      <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs><mask id="m"><rect width="100" height="100" fill="#fff"/><ellipse cx="50" cy="47" rx="24" ry="30" fill="#000"/></mask></defs>
+        <rect width="100" height="100" fill="rgba(0,0,0,.45)" mask="url(#m)"/>
+        <ellipse cx="50" cy="47" rx="24" ry="30" fill="none" stroke="#fff" stroke-width=".7" stroke-dasharray="2 1.6"/>
+      </svg>
+    </div>
+    <div class="zoom"><span>－</span><input type="range" id="zoom" min="1" max="3" step="0.01" value="1" aria-label="확대"><span>＋</span></div>
+    <p class="note" style="justify-content:center">드래그로 위치를, 막대로 크기를 맞춰요</p>
+    <div class="spacer"></div>
+    <div class="actions two">
+      <button class="btn ghost" id="btnRepick">다시 고르기</button>
+      <button class="btn" id="btnMake">캐릭터 만들기</button>
+    </div>
+  </section>
+
+  <!-- 3. 캐릭터 고르기 -->
+  <section class="step hidden" id="step-pick">
+    <h2>마음에 드는 캐릭터를 선택해 주세요</h2>
+    <div class="pick-grid" id="pickGrid"></div>
+    <div class="chips" id="glassChips">
+      <button class="chip on" data-glasses="none">안경 없음</button>
+      <button class="chip" data-glasses="glasses">👓 안경</button>
+      <button class="chip" data-glasses="sunglasses">🕶 선글라스</button>
+    </div>
+    <div class="chips"><button class="chip" id="btnReroll">↻ 다른 스타일 보기</button></div>
+    <div class="spacer"></div>
+    <div class="actions"><button class="btn" id="btnPick" disabled>이 캐릭터로 할게요</button></div>
+  </section>
+
+  <!-- 3'. 캐릭터 꾸미기 (그림 부품) -->
+  <section class="step hidden" id="step-custom">
+    <h2>내 캐릭터 꾸미기</h2>
+    <div class="gender-pick" id="genderPick">
+      <p class="lead">먼저 골라 주세요</p>
+      <div class="gender-btns">
+        <button class="gender-btn" data-gender="m"><canvas id="genderM" width="10" height="10"></canvas><span>남자</span></button>
+        <button class="gender-btn" data-gender="f"><canvas id="genderF" width="10" height="10"></canvas><span>여자</span></button>
+      </div>
+    </div>
+    <div class="custom-preview" id="customStage">
+      <div class="gender-toggle" id="genderToggle" role="group" aria-label="성별">
+        <button data-gender="m">남자</button><button data-gender="f">여자</button>
+      </div>
+      <canvas id="customPreview" width="10" height="10" aria-label="꾸미는 중인 캐릭터"></canvas>
+      <div class="custom-loading hidden" id="customLoading"><span class="label">픽셀 옷 입는 중...</span><span class="bar"><i></i></span></div>
+      <button class="dice" id="btnDice" aria-label="무작위로 꾸미기">🎲</button>
+    </div>
+    <div class="tabs" id="customTabs" role="tablist">
+      <button data-tab="body" class="on">옷</button>
+      <button data-tab="head">머리</button>
+      <button data-tab="eyes">눈</button>
+      <button data-tab="mouth">입</button>
+      <button data-tab="cheek">볼</button>
+      <button data-tab="hair">머리색</button>
+      <button data-tab="skin">피부색</button>
+      <button data-tab="pet">반려동물</button>
+    </div>
+    <div class="opt-grid" id="customOptions"></div>
+    <div class="spacer"></div>
+    <div class="actions sticky"><button class="btn" id="btnCustomDone">이 캐릭터로 할게요</button></div>
+  </section>
+
+  <!-- 4. 이름 -->
+  <section class="step hidden" id="step-name">
+    <div class="preview">
+      <canvas id="namePreview" width="20" height="26"></canvas>
+      <div class="name pixel" id="nameEcho">&nbsp;</div>
+    </div>
+    <div class="field">
+      <label for="nameInput">이름을 알려주세요</label>
+      <input class="input" id="nameInput" maxlength="10" autocomplete="name" placeholder="예) 김하객" enterkeyhint="next">
+    </div>
+    <div class="field">
+      <label>어느 쪽 하객인가요? (선택)</label>
+      <div class="chips" id="sideChips" style="justify-content:flex-start">
+        <button class="chip" data-side="groom">신랑측</button>
+        <button class="chip" data-side="bride">신부측</button>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="actions two">
+      <button class="btn ghost" data-back="step-pick">이전</button>
+      <button class="btn" id="btnName" disabled>다음</button>
+    </div>
+  </section>
+
+  <!-- 5. 축하 메시지 -->
+  <section class="step hidden" id="step-message">
+    <div class="preview">
+      <div class="bubble empty" id="bubblePreview">축하 한마디를 적어 주세요</div>
+      <canvas id="msgPreview" width="20" height="26"></canvas>
+      <div class="name pixel" id="msgName"></div>
+    </div>
+    <div class="field">
+      <label for="msgInput">신랑·신부에게 축하 한마디</label>
+      <textarea class="input" id="msgInput" rows="3" maxlength="50" placeholder="예) 결혼 너무 축하해! 행복하게 살아 💕"></textarea>
+      <div class="counter"><span id="msgCount">0</span> / 50</div>
+    </div>
+    <p class="error" id="sendError"></p>
+    <div class="spacer"></div>
+    <div class="actions two">
+      <button class="btn ghost" data-back="step-name">이전</button>
+      <button class="btn" id="btnSend" disabled>꽃길로 입장하기 💐</button>
+    </div>
+  </section>
+
+  <!-- 6. 완료 -->
+  <section class="step hidden" id="step-done">
+    <span class="done-badge">✓ 입장 완료</span>
+    <h1 style="text-align:center">꽃길로 입장했어요!</h1>
+    <div class="hero"><canvas id="doneScene"></canvas></div>
+    <p class="lead" style="text-align:center">식장 스크린에서 내 캐릭터를 찾아보세요 👀<br>와 주셔서 고마워요.</p>
+    <div class="spacer"></div>
+    <div class="actions"><button class="btn ghost" id="btnAgain">한 명 더 입장하기</button></div>
+  </section>
+</main>
+
+<script src="js/sprite.js"></script>
+<script src="js/avatar.js"></script>
+<script src="js/scene.js"></script>
+<script src="js/store.js"></script>
+<script src="js/guest.js"></script>
+</body>
+</html>

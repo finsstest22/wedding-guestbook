@@ -1,0 +1,1994 @@
+{
+  "body": [
+    {
+      "id": "suit_m",
+      "label": "정장",
+      "sex": "m",
+      "src": "parts/body/suit_m.png",
+      "w": 105,
+      "h": 144,
+      "neck": [
+        51.0,
+        0
+      ],
+      "skin": "parts/body/suit_m.skin.png"
+    },
+    {
+      "id": "suit_f",
+      "label": "정장",
+      "sex": "f",
+      "src": "parts/body/suit_f.png",
+      "w": 89,
+      "h": 119,
+      "neck": [
+        43.0,
+        0
+      ],
+      "skin": "parts/body/suit_f.skin.png"
+    },
+    {
+      "id": "shirt_m",
+      "label": "셔츠",
+      "sex": "m",
+      "src": "parts/body/shirt_m.png",
+      "w": 95,
+      "h": 144,
+      "neck": [
+        47.5,
+        0
+      ],
+      "skin": "parts/body/shirt_m.skin.png"
+    },
+    {
+      "id": "shirt_f",
+      "label": "셔츠",
+      "sex": "f",
+      "src": "parts/body/shirt_f.png",
+      "w": 83,
+      "h": 124,
+      "neck": [
+        38.0,
+        0
+      ],
+      "skin": "parts/body/shirt_f.skin.png"
+    },
+    {
+      "id": "knit_m",
+      "label": "니트",
+      "sex": "m",
+      "src": "parts/body/knit_m.png",
+      "w": 95,
+      "h": 142,
+      "neck": [
+        47.0,
+        0
+      ],
+      "skin": "parts/body/knit_m.skin.png"
+    },
+    {
+      "id": "knit_f",
+      "label": "니트",
+      "sex": "f",
+      "src": "parts/body/knit_f.png",
+      "w": 99,
+      "h": 117,
+      "neck": [
+        45.0,
+        0
+      ],
+      "skin": "parts/body/knit_f.skin.png"
+    },
+    {
+      "id": "blouse_m",
+      "label": "블라우스",
+      "sex": "m",
+      "src": "parts/body/blouse_m.png",
+      "w": 93,
+      "h": 143,
+      "neck": [
+        48.0,
+        0
+      ],
+      "skin": "parts/body/blouse_m.skin.png"
+    },
+    {
+      "id": "blouse_f",
+      "label": "블라우스",
+      "sex": "f",
+      "src": "parts/body/blouse_f.png",
+      "w": 95,
+      "h": 115,
+      "neck": [
+        48.5,
+        0
+      ],
+      "skin": "parts/body/blouse_f.skin.png"
+    },
+    {
+      "id": "slacks_m",
+      "label": "슬랙스",
+      "sex": "m",
+      "src": "parts/body/slacks_m.png",
+      "w": 90,
+      "h": 141,
+      "neck": [
+        47.0,
+        0
+      ],
+      "skin": "parts/body/slacks_m.skin.png"
+    },
+    {
+      "id": "slacks_f",
+      "label": "슬랙스",
+      "sex": "f",
+      "src": "parts/body/slacks_f.png",
+      "w": 81,
+      "h": 117,
+      "neck": [
+        39.5,
+        0
+      ],
+      "skin": "parts/body/slacks_f.skin.png"
+    },
+    {
+      "id": "jeans_m",
+      "label": "청바지",
+      "sex": "m",
+      "src": "parts/body/jeans_m.png",
+      "w": 102,
+      "h": 141,
+      "neck": [
+        49.5,
+        0
+      ],
+      "skin": "parts/body/jeans_m.skin.png"
+    },
+    {
+      "id": "jeans_f",
+      "label": "청바지",
+      "sex": "f",
+      "src": "parts/body/jeans_f.png",
+      "w": 99,
+      "h": 119,
+      "neck": [
+        44.5,
+        0
+      ],
+      "skin": "parts/body/jeans_f.skin.png"
+    },
+    {
+      "id": "pleats_m",
+      "label": "플리츠스커트",
+      "sex": "m",
+      "src": "parts/body/pleats_m.png",
+      "w": 93,
+      "h": 140,
+      "neck": [
+        45.0,
+        0
+      ],
+      "skin": "parts/body/pleats_m.skin.png"
+    },
+    {
+      "id": "pleats_f",
+      "label": "플리츠스커트",
+      "sex": "f",
+      "src": "parts/body/pleats_f.png",
+      "w": 93,
+      "h": 118,
+      "neck": [
+        47.5,
+        -1
+      ],
+      "skin": "parts/body/pleats_f.skin.png"
+    },
+    {
+      "id": "jacket_m",
+      "label": "자켓",
+      "sex": "m",
+      "src": "parts/body/jacket_m.png",
+      "w": 99,
+      "h": 141,
+      "neck": [
+        49.5,
+        0
+      ],
+      "skin": "parts/body/jacket_m.skin.png"
+    },
+    {
+      "id": "jacket_f",
+      "label": "자켓",
+      "sex": "f",
+      "src": "parts/body/jacket_f.png",
+      "w": 99,
+      "h": 120,
+      "neck": [
+        54.0,
+        0
+      ],
+      "skin": "parts/body/jacket_f.skin.png"
+    },
+    {
+      "id": "cardigan_m",
+      "label": "가디건",
+      "sex": "m",
+      "src": "parts/body/cardigan_m.png",
+      "w": 101,
+      "h": 143,
+      "neck": [
+        61.5,
+        0
+      ],
+      "skin": "parts/body/cardigan_m.skin.png"
+    },
+    {
+      "id": "cardigan_f",
+      "label": "가디건",
+      "sex": "f",
+      "src": "parts/body/cardigan_f.png",
+      "w": 110,
+      "h": 119,
+      "neck": [
+        42.0,
+        0
+      ],
+      "skin": "parts/body/cardigan_f.skin.png"
+    },
+    {
+      "id": "hoodie_m",
+      "label": "후드티",
+      "sex": "m",
+      "src": "parts/body/hoodie_m.png",
+      "w": 93,
+      "h": 142,
+      "neck": [
+        47.0,
+        0
+      ],
+      "skin": "parts/body/hoodie_m.skin.png"
+    },
+    {
+      "id": "hoodie_f",
+      "label": "후드티",
+      "sex": "f",
+      "src": "parts/body/hoodie_f.png",
+      "w": 95,
+      "h": 121,
+      "neck": [
+        47.5,
+        0
+      ],
+      "skin": "parts/body/hoodie_f.skin.png"
+    },
+    {
+      "id": "tee_m",
+      "label": "티셔츠",
+      "sex": "m",
+      "src": "parts/body/tee_m.png",
+      "w": 95,
+      "h": 140,
+      "neck": [
+        48.0,
+        0
+      ],
+      "skin": "parts/body/tee_m.skin.png"
+    },
+    {
+      "id": "tee_f",
+      "label": "티셔츠",
+      "sex": "f",
+      "src": "parts/body/tee_f.png",
+      "w": 90,
+      "h": 121,
+      "neck": [
+        44.5,
+        0
+      ],
+      "skin": "parts/body/tee_f.skin.png"
+    },
+    {
+      "id": "vest_m",
+      "label": "니트조끼",
+      "sex": "m",
+      "src": "parts/body/vest_m.png",
+      "w": 93,
+      "h": 140,
+      "neck": [
+        46.5,
+        0
+      ],
+      "skin": "parts/body/vest_m.skin.png"
+    },
+    {
+      "id": "vest_f",
+      "label": "니트조끼",
+      "sex": "f",
+      "src": "parts/body/vest_f.png",
+      "w": 90,
+      "h": 118,
+      "neck": [
+        47.0,
+        0
+      ],
+      "skin": "parts/body/vest_f.skin.png"
+    },
+    {
+      "id": "coat_m",
+      "label": "코트",
+      "sex": "m",
+      "src": "parts/body/coat_m.png",
+      "w": 107,
+      "h": 142,
+      "neck": [
+        50.5,
+        0
+      ],
+      "skin": "parts/body/coat_m.skin.png"
+    },
+    {
+      "id": "coat_f",
+      "label": "코트",
+      "sex": "f",
+      "src": "parts/body/coat_f.png",
+      "w": 91,
+      "h": 121,
+      "neck": [
+        46.0,
+        0
+      ],
+      "skin": "parts/body/coat_f.skin.png"
+    },
+    {
+      "id": "overall_m",
+      "label": "오버롤",
+      "sex": "m",
+      "src": "parts/body/overall_m.png",
+      "w": 92,
+      "h": 142,
+      "neck": [
+        47.0,
+        0
+      ],
+      "skin": "parts/body/overall_m.skin.png"
+    },
+    {
+      "id": "overall_f",
+      "label": "오버롤",
+      "sex": "f",
+      "src": "parts/body/overall_f.png",
+      "w": 88,
+      "h": 117,
+      "neck": [
+        45.5,
+        -1
+      ],
+      "skin": "parts/body/overall_f.skin.png"
+    },
+    {
+      "id": "dress_m",
+      "label": "원피스",
+      "sex": "m",
+      "src": "parts/body/dress_m.png",
+      "w": 90,
+      "h": 141,
+      "neck": [
+        42.5,
+        0
+      ],
+      "skin": "parts/body/dress_m.skin.png"
+    },
+    {
+      "id": "dress_f",
+      "label": "원피스",
+      "sex": "f",
+      "src": "parts/body/dress_f.png",
+      "w": 89,
+      "h": 119,
+      "neck": [
+        43.5,
+        0
+      ],
+      "skin": "parts/body/dress_f.skin.png"
+    },
+    {
+      "id": "wshirt_m",
+      "label": "화이트 셔츠",
+      "sex": "m",
+      "src": "parts/body/wshirt_m.png",
+      "w": 84,
+      "h": 142,
+      "neck": [
+        42.1,
+        0
+      ],
+      "skin": "parts/body/wshirt_m.skin.png"
+    },
+    {
+      "id": "flower_f",
+      "label": "플라워 원피스",
+      "sex": "f",
+      "src": "parts/body/flower_f.png",
+      "w": 104,
+      "h": 120,
+      "neck": [
+        52.4,
+        0
+      ],
+      "skin": "parts/body/flower_f.skin.png"
+    },
+    {
+      "id": "bshirt_m",
+      "label": "블랙 셔츠",
+      "sex": "m",
+      "src": "parts/body/bshirt_m.png",
+      "w": 91,
+      "h": 141,
+      "neck": [
+        47.7,
+        0
+      ],
+      "skin": "parts/body/bshirt_m.skin.png"
+    },
+    {
+      "id": "blackdress_f",
+      "label": "블랙 원피스",
+      "sex": "f",
+      "src": "parts/body/blackdress_f.png",
+      "w": 98,
+      "h": 119,
+      "neck": [
+        47.8,
+        0
+      ],
+      "skin": "parts/body/blackdress_f.skin.png"
+    },
+    {
+      "id": "blshirt_m",
+      "label": "블루 셔츠",
+      "sex": "m",
+      "src": "parts/body/blshirt_m.png",
+      "w": 82,
+      "h": 142,
+      "neck": [
+        41.2,
+        0
+      ],
+      "skin": "parts/body/blshirt_m.skin.png"
+    },
+    {
+      "id": "bluedress_f",
+      "label": "블루 원피스",
+      "sex": "f",
+      "src": "parts/body/bluedress_f.png",
+      "w": 117,
+      "h": 120,
+      "neck": [
+        58.5,
+        0
+      ],
+      "skin": "parts/body/bluedress_f.skin.png"
+    },
+    {
+      "id": "hanbok_m",
+      "label": "한복",
+      "sex": "m",
+      "src": "parts/body/hanbok_m.png",
+      "w": 107,
+      "h": 141,
+      "neck": [
+        53.7,
+        0
+      ],
+      "skin": "parts/body/hanbok_m.skin.png"
+    },
+    {
+      "id": "hanbok_f",
+      "label": "한복",
+      "sex": "f",
+      "src": "parts/body/hanbok_f.png",
+      "w": 115,
+      "h": 120,
+      "neck": [
+        56.1,
+        0
+      ],
+      "skin": "parts/body/hanbok_f.skin.png"
+    },
+    {
+      "id": "hanbokp_m",
+      "label": "혼주 한복",
+      "sex": "m",
+      "src": "parts/body/hanbokp_m.png",
+      "w": 102,
+      "h": 141,
+      "neck": [
+        51.2,
+        0
+      ],
+      "skin": "parts/body/hanbokp_m.skin.png"
+    },
+    {
+      "id": "hanbokp_f",
+      "label": "혼주 한복",
+      "sex": "f",
+      "src": "parts/body/hanbokp_f.png",
+      "w": 106,
+      "h": 120,
+      "neck": [
+        51.6,
+        0
+      ],
+      "skin": "parts/body/hanbokp_f.skin.png"
+    },
+    {
+      "id": "hanbokt_m",
+      "label": "트렌디 한복",
+      "sex": "m",
+      "src": "parts/body/hanbokt_m.png",
+      "w": 110,
+      "h": 141,
+      "neck": [
+        55.2,
+        0
+      ],
+      "skin": "parts/body/hanbokt_m.skin.png"
+    },
+    {
+      "id": "hanbokt_f",
+      "label": "트렌디 한복",
+      "sex": "f",
+      "src": "parts/body/hanbokt_f.png",
+      "w": 96,
+      "h": 119,
+      "neck": [
+        46.9,
+        0
+      ],
+      "skin": "parts/body/hanbokt_f.skin.png"
+    }
+  ],
+  "bodyScaleRef": 246.9,
+  "face": {
+    "eyes": [
+      {
+        "id": "round",
+        "label": "동그란 눈",
+        "src": "parts/face/eyes/round.png",
+        "x": -0.4739,
+        "y": -0.597,
+        "w": 0.9552
+      },
+      {
+        "id": "droopy",
+        "label": "처진 눈",
+        "src": "parts/face/eyes/droopy.png",
+        "x": -0.4739,
+        "y": -0.4403,
+        "w": 0.9552
+      },
+      {
+        "id": "cat",
+        "label": "올라간 눈",
+        "src": "parts/face/eyes/cat.png",
+        "x": -0.4739,
+        "y": -0.4552,
+        "w": 0.9552
+      },
+      {
+        "id": "narrow",
+        "label": "가는 눈",
+        "src": "parts/face/eyes/narrow.png",
+        "x": -0.4739,
+        "y": -0.4478,
+        "w": 0.9552
+      },
+      {
+        "id": "sparkle",
+        "label": "반짝이는 눈",
+        "src": "parts/face/eyes/sparkle.png",
+        "x": -0.4739,
+        "y": -0.6045,
+        "w": 0.9552
+      },
+      {
+        "id": "double",
+        "label": "쌍꺼풀 눈",
+        "src": "parts/face/eyes/double.png",
+        "x": -0.4515,
+        "y": -0.4627,
+        "w": 0.9328
+      },
+      {
+        "id": "lashes",
+        "label": "긴 속눈썹 눈",
+        "src": "parts/face/eyes/lashes.png",
+        "x": -0.4739,
+        "y": -0.4552,
+        "w": 0.9552
+      },
+      {
+        "id": "dot",
+        "label": "작은 점 눈",
+        "src": "parts/face/eyes/dot.png",
+        "x": -0.3246,
+        "y": -0.306,
+        "w": 0.6567
+      },
+      {
+        "id": "sleepy",
+        "label": "졸린 눈",
+        "src": "parts/face/eyes/sleepy.png",
+        "x": -0.4739,
+        "y": -0.4478,
+        "w": 0.9552
+      },
+      {
+        "id": "smile",
+        "label": "웃는 눈",
+        "src": "parts/face/eyes/smile.png",
+        "x": -0.4366,
+        "y": -0.3358,
+        "w": 0.8881
+      },
+      {
+        "id": "mole",
+        "label": "점 있는 눈",
+        "src": "parts/face/eyes/mole.png",
+        "x": -0.4739,
+        "y": -0.4552,
+        "w": 0.9552
+      }
+    ],
+    "mouth": [
+      {
+        "id": "smile",
+        "label": "부드러운 미소",
+        "src": "parts/face/mouth/smile.png",
+        "x": -0.1349,
+        "y": -0.2105,
+        "w": 0.2961
+      },
+      {
+        "id": "open",
+        "label": "활짝 웃음",
+        "src": "parts/face/mouth/open.png",
+        "x": -0.1217,
+        "y": -0.2368,
+        "w": 0.2697
+      },
+      {
+        "id": "neutral",
+        "label": "무표정",
+        "src": "parts/face/mouth/neutral.png",
+        "x": -0.0559,
+        "y": -0.1645,
+        "w": 0.1447
+      },
+      {
+        "id": "cat",
+        "label": "고양이 입",
+        "src": "parts/face/mouth/cat.png",
+        "x": -0.1151,
+        "y": -0.2237,
+        "w": 0.2566
+      },
+      {
+        "id": "oh",
+        "label": "살짝 벌린 입",
+        "src": "parts/face/mouth/oh.png",
+        "x": -0.0954,
+        "y": -0.2105,
+        "w": 0.1974
+      },
+      {
+        "id": "grin",
+        "label": "이빨 보이기",
+        "src": "parts/face/mouth/grin.png",
+        "x": -0.1612,
+        "y": -0.2368,
+        "w": 0.3289
+      },
+      {
+        "id": "pout",
+        "label": "삐진 입",
+        "src": "parts/face/mouth/pout.png",
+        "x": -0.0428,
+        "y": -0.2697,
+        "w": 0.0921
+      }
+    ],
+    "cheek": [
+      {
+        "id": "blush",
+        "label": "연한 볼터치",
+        "src": "parts/face/cheek/blush.png",
+        "x": -0.4538,
+        "y": -0.2663,
+        "w": 0.9022
+      },
+      {
+        "id": "blush2",
+        "label": "강한 볼터치",
+        "src": "parts/face/cheek/blush2.png",
+        "x": -0.4266,
+        "y": -0.5543,
+        "w": 0.8913
+      },
+      {
+        "id": "freckle",
+        "label": "주근깨",
+        "src": "parts/face/cheek/freckle.png",
+        "x": -0.4321,
+        "y": -0.5543,
+        "w": 0.837
+      },
+      {
+        "id": "mole",
+        "label": "입가 점",
+        "src": "parts/face/cheek/mole.png",
+        "x": 0.2147,
+        "y": -0.5652,
+        "w": 0.125
+      }
+    ]
+  },
+  "head": [
+    {
+      "id": "base_m",
+      "label": "기본",
+      "sex": "m",
+      "src": "parts/head/base_m.png",
+      "face": {
+        "cx": 122.5,
+        "chin": 205,
+        "fw": 134
+      },
+      "walk": "short"
+    },
+    {
+      "id": "twoblock",
+      "label": "투블럭",
+      "sex": "m",
+      "src": "parts/head/twoblock.png",
+      "face": {
+        "cx": 61.0,
+        "chin": 102,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "comma_m",
+      "label": "쉼표머리",
+      "sex": "m",
+      "src": "parts/head/comma_m.png",
+      "face": {
+        "cx": 67.5,
+        "chin": 102,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "perm_m",
+      "label": "펌",
+      "sex": "m",
+      "src": "parts/head/perm_m.png",
+      "face": {
+        "cx": 66.5,
+        "chin": 101,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "down",
+      "label": "다운펌",
+      "sex": "m",
+      "src": "parts/head/down.png",
+      "face": {
+        "cx": 55.0,
+        "chin": 98,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "pomade",
+      "label": "포마드",
+      "sex": "m",
+      "src": "parts/head/pomade.png",
+      "face": {
+        "cx": 66.0,
+        "chin": 107,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "dandy",
+      "label": "댄디컷",
+      "sex": "m",
+      "src": "parts/head/dandy.png",
+      "face": {
+        "cx": 66.0,
+        "chin": 103,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "swallow",
+      "label": "스왈로펌",
+      "sex": "m",
+      "src": "parts/head/swallow.png",
+      "face": {
+        "cx": 69.5,
+        "chin": 102,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "leaf",
+      "label": "리프컷",
+      "sex": "m",
+      "src": "parts/head/leaf.png",
+      "face": {
+        "cx": 69.5,
+        "chin": 103,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "crop",
+      "label": "크롭컷",
+      "sex": "m",
+      "src": "parts/head/crop.png",
+      "face": {
+        "cx": 59.5,
+        "chin": 102,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "slick",
+      "label": "뒷머리 넘김",
+      "sex": "m",
+      "src": "parts/head/slick.png",
+      "face": {
+        "cx": 65.0,
+        "chin": 106,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "upm",
+      "label": "올림머리",
+      "sex": "m",
+      "src": "parts/head/upm.png",
+      "face": {
+        "cx": 67.5,
+        "chin": 110,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "parted",
+      "label": "가르마펌",
+      "sex": "m",
+      "src": "parts/head/parted.png",
+      "face": {
+        "cx": 67.5,
+        "chin": 111,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "spike",
+      "label": "스파이크컷",
+      "sex": "m",
+      "src": "parts/head/spike.png",
+      "face": {
+        "cx": 70.5,
+        "chin": 110,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "ez",
+      "label": "애즈펌",
+      "sex": "m",
+      "src": "parts/head/ez.png",
+      "face": {
+        "cx": 60.5,
+        "chin": 108,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "shaggy",
+      "label": "샤기컷",
+      "sex": "m",
+      "src": "parts/head/shaggy.png",
+      "face": {
+        "cx": 65.0,
+        "chin": 108,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "straight",
+      "label": "생머리",
+      "sex": "f",
+      "src": "parts/head/straight.png",
+      "face": {
+        "cx": 53.5,
+        "chin": 95,
+        "fw": 66
+      },
+      "walk": "long"
+    },
+    {
+      "id": "comma",
+      "label": "쉼표 앞머리",
+      "sex": "f",
+      "src": "parts/head/comma.png",
+      "face": {
+        "cx": 52.5,
+        "chin": 95,
+        "fw": 66
+      },
+      "walk": "long"
+    },
+    {
+      "id": "perm",
+      "label": "펌",
+      "sex": "f",
+      "src": "parts/head/perm.png",
+      "face": {
+        "cx": 50.5,
+        "chin": 98,
+        "fw": 64
+      },
+      "walk": "long"
+    },
+    {
+      "id": "bob",
+      "label": "단발",
+      "sex": "f",
+      "src": "parts/head/bob.png",
+      "face": {
+        "cx": 53.0,
+        "chin": 97,
+        "fw": 65
+      },
+      "walk": "short"
+    },
+    {
+      "id": "ponytail",
+      "label": "포니테일",
+      "sex": "f",
+      "src": "parts/head/ponytail.png",
+      "face": {
+        "cx": 52.0,
+        "chin": 107,
+        "fw": 65
+      },
+      "walk": "long"
+    },
+    {
+      "id": "bun",
+      "label": "똥머리",
+      "sex": "f",
+      "src": "parts/head/bun.png",
+      "face": {
+        "cx": 51.5,
+        "chin": 114,
+        "fw": 66
+      },
+      "walk": "short"
+    },
+    {
+      "id": "twin",
+      "label": "양갈래",
+      "sex": "f",
+      "src": "parts/head/twin.png",
+      "face": {
+        "cx": 72.0,
+        "chin": 103,
+        "fw": 67
+      },
+      "walk": "long"
+    },
+    {
+      "id": "long",
+      "label": "긴 생머리",
+      "sex": "f",
+      "src": "parts/head/long.png",
+      "face": {
+        "cx": 52.0,
+        "chin": 98,
+        "fw": 63
+      },
+      "walk": "long"
+    },
+    {
+      "id": "wave",
+      "label": "웨이브",
+      "sex": "f",
+      "src": "parts/head/wave.png",
+      "face": {
+        "cx": 64.0,
+        "chin": 98,
+        "fw": 67
+      },
+      "walk": "long"
+    },
+    {
+      "id": "halfup",
+      "label": "반묶음",
+      "sex": "f",
+      "src": "parts/head/halfup.png",
+      "face": {
+        "cx": 52.5,
+        "chin": 102,
+        "fw": 66
+      },
+      "walk": "long"
+    },
+    {
+      "id": "updo",
+      "label": "올림머리",
+      "sex": "f",
+      "src": "parts/head/updo.png",
+      "face": {
+        "cx": 51.5,
+        "chin": 110,
+        "fw": 66
+      },
+      "walk": "short"
+    },
+    {
+      "id": "sidepony",
+      "label": "사이드 포니테일",
+      "sex": "f",
+      "src": "parts/head/sidepony.png",
+      "face": {
+        "cx": 53.5,
+        "chin": 99,
+        "fw": 68
+      },
+      "walk": "long"
+    },
+    {
+      "id": "hime",
+      "label": "히메컷",
+      "sex": "f",
+      "src": "parts/head/hime.png",
+      "face": {
+        "cx": 54.5,
+        "chin": 103,
+        "fw": 66
+      },
+      "walk": "long"
+    },
+    {
+      "id": "bobwave",
+      "label": "단발 웨이브",
+      "sex": "f",
+      "src": "parts/head/bobwave.png",
+      "face": {
+        "cx": 61.5,
+        "chin": 98,
+        "fw": 66
+      },
+      "walk": "short"
+    },
+    {
+      "id": "layered",
+      "label": "레이어드",
+      "sex": "f",
+      "src": "parts/head/layered.png",
+      "face": {
+        "cx": 52.5,
+        "chin": 104,
+        "fw": 66
+      },
+      "walk": "long"
+    }
+  ],
+  "bodyFaceW": 65,
+  "pets": [
+    {
+      "id": "maltese",
+      "label": "말티즈",
+      "sit": "parts/pet/maltese_sit.png",
+      "walk": {
+        "right": [
+          "parts/pet/maltese_right_0.png",
+          "parts/pet/maltese_right_1.png"
+        ],
+        "down": [
+          "parts/pet/maltese_down_0.png",
+          "parts/pet/maltese_down_1.png",
+          "parts/pet/maltese_down_2.png",
+          "parts/pet/maltese_down_3.png",
+          "parts/pet/maltese_down_4.png",
+          "parts/pet/maltese_down_5.png",
+          "parts/pet/maltese_down_6.png",
+          "parts/pet/maltese_down_7.png"
+        ],
+        "left": [
+          "parts/pet/maltese_left_0.png",
+          "parts/pet/maltese_left_1.png"
+        ],
+        "up": [
+          "parts/pet/maltese_up_0.png",
+          "parts/pet/maltese_up_1.png",
+          "parts/pet/maltese_up_2.png",
+          "parts/pet/maltese_up_3.png",
+          "parts/pet/maltese_up_4.png",
+          "parts/pet/maltese_up_5.png",
+          "parts/pet/maltese_up_6.png",
+          "parts/pet/maltese_up_7.png"
+        ]
+      }
+    },
+    {
+      "id": "cat",
+      "label": "고양이",
+      "sit": "parts/pet/cat_sit.png",
+      "walk": {
+        "right": [
+          "parts/pet/cat_right_0.png",
+          "parts/pet/cat_right_1.png"
+        ],
+        "down": [
+          "parts/pet/cat_down_0.png",
+          "parts/pet/cat_down_1.png",
+          "parts/pet/cat_down_2.png",
+          "parts/pet/cat_down_3.png",
+          "parts/pet/cat_down_4.png",
+          "parts/pet/cat_down_5.png",
+          "parts/pet/cat_down_6.png",
+          "parts/pet/cat_down_7.png"
+        ],
+        "left": [
+          "parts/pet/cat_left_0.png",
+          "parts/pet/cat_left_1.png"
+        ],
+        "up": [
+          "parts/pet/cat_up_0.png",
+          "parts/pet/cat_up_1.png",
+          "parts/pet/cat_up_2.png",
+          "parts/pet/cat_up_3.png",
+          "parts/pet/cat_up_4.png",
+          "parts/pet/cat_up_5.png",
+          "parts/pet/cat_up_6.png",
+          "parts/pet/cat_up_7.png"
+        ]
+      }
+    }
+  ],
+  "walk": {
+    "m": {
+      "dirs": {
+        "right": [
+          {
+            "src": "parts/walk/m_right_0.png",
+            "cls": "parts/walk/m_right_0.cls.png",
+            "neck": [
+              45.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_right_0.png",
+              "anchor": [
+                53.3,
+                103.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_right_1.png",
+            "cls": "parts/walk/m_right_1.cls.png",
+            "neck": [
+              44.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_right_1.png",
+              "anchor": [
+                45.5,
+                104.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_right_2.png",
+            "cls": "parts/walk/m_right_2.cls.png",
+            "neck": [
+              45.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_right_2.png",
+              "anchor": [
+                44.5,
+                103.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_right_3.png",
+            "cls": "parts/walk/m_right_3.cls.png",
+            "neck": [
+              47.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_right_3.png",
+              "anchor": [
+                45.5,
+                104.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_right_4.png",
+            "cls": "parts/walk/m_right_4.cls.png",
+            "neck": [
+              42.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_right_4.png",
+              "anchor": [
+                44.5,
+                104.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_right_5.png",
+            "cls": "parts/walk/m_right_5.cls.png",
+            "neck": [
+              44.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_right_5.png",
+              "anchor": [
+                45.0,
+                104.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_right_6.png",
+            "cls": "parts/walk/m_right_6.cls.png",
+            "neck": [
+              41.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_right_6.png",
+              "anchor": [
+                41.0,
+                104.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_right_7.png",
+            "cls": "parts/walk/m_right_7.cls.png",
+            "neck": [
+              47.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_right_7.png",
+              "anchor": [
+                43.6,
+                104.8
+              ]
+            }
+          }
+        ],
+        "down": [
+          {
+            "src": "parts/walk/m_down_0.png",
+            "cls": "parts/walk/m_down_0.cls.png",
+            "neck": [
+              42.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_down_0.png",
+              "anchor": [
+                52.7,
+                105.0
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_down_1.png",
+            "cls": "parts/walk/m_down_1.cls.png",
+            "neck": [
+              43.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_down_1.png",
+              "anchor": [
+                46.1,
+                105.0
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_down_2.png",
+            "cls": "parts/walk/m_down_2.cls.png",
+            "neck": [
+              42.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_down_2.png",
+              "anchor": [
+                45.6,
+                105.0
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_down_3.png",
+            "cls": "parts/walk/m_down_3.cls.png",
+            "neck": [
+              43.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_down_3.png",
+              "anchor": [
+                46.0,
+                105.0
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_down_4.png",
+            "cls": "parts/walk/m_down_4.cls.png",
+            "neck": [
+              43.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_down_4.png",
+              "anchor": [
+                44.6,
+                105.0
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_down_5.png",
+            "cls": "parts/walk/m_down_5.cls.png",
+            "neck": [
+              42.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_down_5.png",
+              "anchor": [
+                44.5,
+                105.0
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_down_6.png",
+            "cls": "parts/walk/m_down_6.cls.png",
+            "neck": [
+              43.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_down_6.png",
+              "anchor": [
+                44.0,
+                105.0
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_down_7.png",
+            "cls": "parts/walk/m_down_7.cls.png",
+            "neck": [
+              43.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_down_7.png",
+              "anchor": [
+                43.0,
+                105.0
+              ]
+            }
+          }
+        ],
+        "left": [
+          {
+            "src": "parts/walk/m_left_0.png",
+            "cls": "parts/walk/m_left_0.cls.png",
+            "neck": [
+              49.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_left_0.png",
+              "anchor": [
+                54.4,
+                103.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_left_1.png",
+            "cls": "parts/walk/m_left_1.cls.png",
+            "neck": [
+              40.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_left_1.png",
+              "anchor": [
+                45.0,
+                104.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_left_2.png",
+            "cls": "parts/walk/m_left_2.cls.png",
+            "neck": [
+              42.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_left_2.png",
+              "anchor": [
+                47.0,
+                103.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_left_3.png",
+            "cls": "parts/walk/m_left_3.cls.png",
+            "neck": [
+              45.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_left_3.png",
+              "anchor": [
+                47.0,
+                103.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_left_4.png",
+            "cls": "parts/walk/m_left_4.cls.png",
+            "neck": [
+              43.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_left_4.png",
+              "anchor": [
+                46.0,
+                103.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_left_5.png",
+            "cls": "parts/walk/m_left_5.cls.png",
+            "neck": [
+              43.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_left_5.png",
+              "anchor": [
+                46.0,
+                103.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_left_6.png",
+            "cls": "parts/walk/m_left_6.cls.png",
+            "neck": [
+              39.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_left_6.png",
+              "anchor": [
+                44.9,
+                104.8
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_left_7.png",
+            "cls": "parts/walk/m_left_7.cls.png",
+            "neck": [
+              48.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_left_7.png",
+              "anchor": [
+                46.0,
+                104.8
+              ]
+            }
+          }
+        ],
+        "up": [
+          {
+            "src": "parts/walk/m_up_0.png",
+            "cls": "parts/walk/m_up_0.cls.png",
+            "neck": [
+              43.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_up_0.png",
+              "anchor": [
+                51.3,
+                102.9
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_up_1.png",
+            "cls": "parts/walk/m_up_1.cls.png",
+            "neck": [
+              45.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_up_1.png",
+              "anchor": [
+                43.6,
+                103.9
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_up_2.png",
+            "cls": "parts/walk/m_up_2.cls.png",
+            "neck": [
+              44.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_up_2.png",
+              "anchor": [
+                44.0,
+                102.9
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_up_3.png",
+            "cls": "parts/walk/m_up_3.cls.png",
+            "neck": [
+              43.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_up_3.png",
+              "anchor": [
+                43.0,
+                102.9
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_up_4.png",
+            "cls": "parts/walk/m_up_4.cls.png",
+            "neck": [
+              45.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_up_4.png",
+              "anchor": [
+                45.5,
+                103.9
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_up_5.png",
+            "cls": "parts/walk/m_up_5.cls.png",
+            "neck": [
+              45.5,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_up_5.png",
+              "anchor": [
+                44.6,
+                103.9
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_up_6.png",
+            "cls": "parts/walk/m_up_6.cls.png",
+            "neck": [
+              45.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_up_6.png",
+              "anchor": [
+                43.1,
+                102.9
+              ]
+            }
+          },
+          {
+            "src": "parts/walk/m_up_7.png",
+            "cls": "parts/walk/m_up_7.cls.png",
+            "neck": [
+              43.0,
+              0
+            ],
+            "head": {
+              "src": "parts/walk/head_up_7.png",
+              "anchor": [
+                44.9,
+                102.9
+              ]
+            }
+          }
+        ]
+      },
+      "top": [
+        200,
+        189,
+        181
+      ],
+      "bottom": [
+        42,
+        34,
+        31
+      ]
+    },
+    "f": {
+      "dirs": {
+        "right": [
+          {
+            "src": "parts/walk/f_right_0.png",
+            "cls": "parts/walk/f_right_0.cls.png",
+            "neck": [
+              49.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_right_1.png",
+            "cls": "parts/walk/f_right_1.cls.png",
+            "neck": [
+              38.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_right_2.png",
+            "cls": "parts/walk/f_right_2.cls.png",
+            "neck": [
+              41.5,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_right_3.png",
+            "cls": "parts/walk/f_right_3.cls.png",
+            "neck": [
+              39.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_right_4.png",
+            "cls": "parts/walk/f_right_4.cls.png",
+            "neck": [
+              38.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_right_5.png",
+            "cls": "parts/walk/f_right_5.cls.png",
+            "neck": [
+              37.5,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_right_6.png",
+            "cls": "parts/walk/f_right_6.cls.png",
+            "neck": [
+              37.5,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_right_7.png",
+            "cls": "parts/walk/f_right_7.cls.png",
+            "neck": [
+              34.0,
+              0
+            ]
+          }
+        ],
+        "down": [
+          {
+            "src": "parts/walk/f_down_0.png",
+            "cls": "parts/walk/f_down_0.cls.png",
+            "neck": [
+              48.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_down_1.png",
+            "cls": "parts/walk/f_down_1.cls.png",
+            "neck": [
+              37.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_down_2.png",
+            "cls": "parts/walk/f_down_2.cls.png",
+            "neck": [
+              38.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_down_3.png",
+            "cls": "parts/walk/f_down_3.cls.png",
+            "neck": [
+              37.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_down_4.png",
+            "cls": "parts/walk/f_down_4.cls.png",
+            "neck": [
+              37.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_down_5.png",
+            "cls": "parts/walk/f_down_5.cls.png",
+            "neck": [
+              35.5,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_down_6.png",
+            "cls": "parts/walk/f_down_6.cls.png",
+            "neck": [
+              36.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_down_7.png",
+            "cls": "parts/walk/f_down_7.cls.png",
+            "neck": [
+              32.5,
+              0
+            ]
+          }
+        ],
+        "left": [
+          {
+            "src": "parts/walk/f_left_0.png",
+            "cls": "parts/walk/f_left_0.cls.png",
+            "neck": [
+              51.5,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_left_1.png",
+            "cls": "parts/walk/f_left_1.cls.png",
+            "neck": [
+              33.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_left_2.png",
+            "cls": "parts/walk/f_left_2.cls.png",
+            "neck": [
+              29.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_left_3.png",
+            "cls": "parts/walk/f_left_3.cls.png",
+            "neck": [
+              32.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_left_4.png",
+            "cls": "parts/walk/f_left_4.cls.png",
+            "neck": [
+              32.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_left_5.png",
+            "cls": "parts/walk/f_left_5.cls.png",
+            "neck": [
+              29.5,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_left_6.png",
+            "cls": "parts/walk/f_left_6.cls.png",
+            "neck": [
+              32.5,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_left_7.png",
+            "cls": "parts/walk/f_left_7.cls.png",
+            "neck": [
+              29.5,
+              0
+            ]
+          }
+        ],
+        "up": [
+          {
+            "src": "parts/walk/f_up_0.png",
+            "cls": "parts/walk/f_up_0.cls.png",
+            "neck": [
+              50.5,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_up_1.png",
+            "cls": "parts/walk/f_up_1.cls.png",
+            "neck": [
+              45.5,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_up_2.png",
+            "cls": "parts/walk/f_up_2.cls.png",
+            "neck": [
+              44.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_up_3.png",
+            "cls": "parts/walk/f_up_3.cls.png",
+            "neck": [
+              43.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_up_4.png",
+            "cls": "parts/walk/f_up_4.cls.png",
+            "neck": [
+              45.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_up_5.png",
+            "cls": "parts/walk/f_up_5.cls.png",
+            "neck": [
+              45.5,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_up_6.png",
+            "cls": "parts/walk/f_up_6.cls.png",
+            "neck": [
+              45.0,
+              0
+            ]
+          },
+          {
+            "src": "parts/walk/f_up_7.png",
+            "cls": "parts/walk/f_up_7.cls.png",
+            "neck": [
+              43.0,
+              0
+            ]
+          }
+        ]
+      },
+      "top": [
+        190,
+        169,
+        157
+      ],
+      "bottom": [
+        190,
+        169,
+        157
+      ]
+    }
+  },
+  "walkHeads": {
+    "long_side": {
+      "src": "parts/walk/hd_long_side.png",
+      "anchor": [
+        48.6,
+        105.6
+      ]
+    },
+    "long_back": {
+      "src": "parts/walk/hd_long_back.png",
+      "anchor": [
+        42,
+        104.0
+      ]
+    },
+    "short_back": {
+      "src": "parts/walk/hd_short_back.png",
+      "anchor": [
+        43.8,
+        102.9
+      ]
+    },
+    "short_side": {
+      "src": "parts/walk/hd_short_side.png",
+      "anchor": [
+        54.8,
+        103
+      ]
+    }
+  }
+}

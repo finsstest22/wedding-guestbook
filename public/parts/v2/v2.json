@@ -1,0 +1,625 @@
+{
+ "cell": [
+  241,
+  332
+ ],
+ "foot": 332,
+ "pad": 40,
+ "base": {
+  "base": {
+   "down": [
+    "parts/v2/base_base_down_0.png",
+    "parts/v2/base_base_down_1.png",
+    "parts/v2/base_base_down_2.png",
+    "parts/v2/base_base_down_3.png"
+   ],
+   "left": [
+    "parts/v2/base_base_left_0.png",
+    "parts/v2/base_base_left_1.png",
+    "parts/v2/base_base_left_2.png",
+    "parts/v2/base_base_left_3.png"
+   ],
+   "up": [
+    "parts/v2/base_base_up_0.png",
+    "parts/v2/base_base_up_1.png",
+    "parts/v2/base_base_up_2.png",
+    "parts/v2/base_base_up_3.png"
+   ]
+  }
+ },
+ "outfit": {
+  "blouse_skirt": {
+   "down": [
+    "parts/v2/outfit_blouse_skirt_down_0.png",
+    "parts/v2/outfit_blouse_skirt_down_1.png",
+    "parts/v2/outfit_blouse_skirt_down_2.png",
+    "parts/v2/outfit_blouse_skirt_down_3.png"
+   ],
+   "left": [
+    "parts/v2/outfit_blouse_skirt_left_0.png",
+    "parts/v2/outfit_blouse_skirt_left_1.png",
+    "parts/v2/outfit_blouse_skirt_left_2.png",
+    "parts/v2/outfit_blouse_skirt_left_3.png"
+   ],
+   "up": [
+    "parts/v2/outfit_blouse_skirt_up_0.png",
+    "parts/v2/outfit_blouse_skirt_up_1.png",
+    "parts/v2/outfit_blouse_skirt_up_2.png",
+    "parts/v2/outfit_blouse_skirt_up_3.png"
+   ]
+  },
+  "cardigan_skirt": {
+   "down": [
+    "parts/v2/outfit_cardigan_skirt_down_0.png",
+    "parts/v2/outfit_cardigan_skirt_down_1.png",
+    "parts/v2/outfit_cardigan_skirt_down_2.png",
+    "parts/v2/outfit_cardigan_skirt_down_3.png"
+   ],
+   "left": [
+    "parts/v2/outfit_cardigan_skirt_left_0.png",
+    "parts/v2/outfit_cardigan_skirt_left_1.png",
+    "parts/v2/outfit_cardigan_skirt_left_2.png",
+    "parts/v2/outfit_cardigan_skirt_left_3.png"
+   ],
+   "up": [
+    "parts/v2/outfit_cardigan_skirt_up_0.png",
+    "parts/v2/outfit_cardigan_skirt_up_1.png",
+    "parts/v2/outfit_cardigan_skirt_up_2.png",
+    "parts/v2/outfit_cardigan_skirt_up_3.png"
+   ]
+  },
+  "denim": {
+   "down": [
+    "parts/v2/outfit_denim_down_0.png",
+    "parts/v2/outfit_denim_down_1.png",
+    "parts/v2/outfit_denim_down_2.png",
+    "parts/v2/outfit_denim_down_3.png"
+   ],
+   "left": [
+    "parts/v2/outfit_denim_left_0.png",
+    "parts/v2/outfit_denim_left_1.png",
+    "parts/v2/outfit_denim_left_2.png",
+    "parts/v2/outfit_denim_left_3.png"
+   ],
+   "up": [
+    "parts/v2/outfit_denim_up_0.png",
+    "parts/v2/outfit_denim_up_1.png",
+    "parts/v2/outfit_denim_up_2.png",
+    "parts/v2/outfit_denim_up_3.png"
+   ]
+  },
+  "dress_black": {
+   "down": [
+    "parts/v2/outfit_dress_black_down_0.png",
+    "parts/v2/outfit_dress_black_down_1.png",
+    "parts/v2/outfit_dress_black_down_2.png",
+    "parts/v2/outfit_dress_black_down_3.png"
+   ],
+   "left": [
+    "parts/v2/outfit_dress_black_left_0.png",
+    "parts/v2/outfit_dress_black_left_1.png",
+    "parts/v2/outfit_dress_black_left_2.png",
+    "parts/v2/outfit_dress_black_left_3.png"
+   ],
+   "up": [
+    "parts/v2/outfit_dress_black_up_0.png",
+    "parts/v2/outfit_dress_black_up_1.png",
+    "parts/v2/outfit_dress_black_up_2.png",
+    "parts/v2/outfit_dress_black_up_3.png"
+   ]
+  },
+  "dress_blue": {
+   "down": [
+    "parts/v2/outfit_dress_blue_down_0.png",
+    "parts/v2/outfit_dress_blue_down_1.png",
+    "parts/v2/outfit_dress_blue_down_2.png",
+    "parts/v2/outfit_dress_blue_down_3.png"
+   ],
+   "left": [
+    "parts/v2/outfit_dress_blue_left_0.png",
+    "parts/v2/outfit_dress_blue_left_1.png",
+    "parts/v2/outfit_dress_blue_left_2.png",
+    "parts/v2/outfit_dress_blue_left_3.png"
+   ],
+   "up": [
+    "parts/v2/outfit_dress_blue_up_0.png",
+    "parts/v2/outfit_dress_blue_up_1.png",
+    "parts/v2/outfit_dress_blue_up_2.png",
+    "parts/v2/outfit_dress_blue_up_3.png"
+   ]
+  },
+  "dress_floral": {
+   "down": [
+    "parts/v2/outfit_dress_floral_down_0.png",
+    "parts/v2/outfit_dress_floral_down_1.png",
+    "parts/v2/outfit_dress_floral_down_2.png",
+    "parts/v2/outfit_dress_floral_down_3.png"
+   ],
+   "left": [
+    "parts/v2/outfit_dress_floral_left_0.png",
+    "parts/v2/outfit_dress_floral_left_1.png",
+    "parts/v2/outfit_dress_floral_left_2.png",
+    "parts/v2/outfit_dress_floral_left_3.png"
+   ],
+   "up": [
+    "parts/v2/outfit_dress_floral_up_0.png",
+    "parts/v2/outfit_dress_floral_up_1.png",
+    "parts/v2/outfit_dress_floral_up_2.png",
+    "parts/v2/outfit_dress_floral_up_3.png"
+   ]
+  },
+  "hanbok_f": {
+   "down": [
+    "parts/v2/outfit_hanbok_f_down_0.png",
+    "parts/v2/outfit_hanbok_f_down_1.png",
+    "parts/v2/outfit_hanbok_f_down_2.png",
+    "parts/v2/outfit_hanbok_f_down_3.png"
+   ],
+   "left": [
+    "parts/v2/outfit_hanbok_f_left_0.png",
+    "parts/v2/outfit_hanbok_f_left_1.png",
+    "parts/v2/outfit_hanbok_f_left_2.png",
+    "parts/v2/outfit_hanbok_f_left_3.png"
+   ],
+   "up": [
+    "parts/v2/outfit_hanbok_f_up_0.png",
+    "parts/v2/outfit_hanbok_f_up_1.png",
+    "parts/v2/outfit_hanbok_f_up_2.png",
+    "parts/v2/outfit_hanbok_f_up_3.png"
+   ]
+  },
+  "hanbok_m": {
+   "down": [
+    "parts/v2/outfit_hanbok_m_down_0.png",
+    "parts/v2/outfit_hanbok_m_down_1.png",
+    "parts/v2/outfit_hanbok_m_down_2.png",
+    "parts/v2/outfit_hanbok_m_down_3.png"
+   ],
+   "left": [
+    "parts/v2/outfit_hanbok_m_left_0.png",
+    "parts/v2/outfit_hanbok_m_left_1.png",
+    "parts/v2/outfit_hanbok_m_left_2.png",
+    "parts/v2/outfit_hanbok_m_left_3.png"
+   ],
+   "up": [
+    "parts/v2/outfit_hanbok_m_up_0.png",
+    "parts/v2/outfit_hanbok_m_up_1.png",
+    "parts/v2/outfit_hanbok_m_up_2.png",
+    "parts/v2/outfit_hanbok_m_up_3.png"
+   ]
+  },
+  "hoodie": {
+   "down": [
+    "parts/v2/outfit_hoodie_down_0.png",
+    "parts/v2/outfit_hoodie_down_1.png",
+    "parts/v2/outfit_hoodie_down_2.png",
+    "parts/v2/outfit_hoodie_down_3.png"
+   ],
+   "left": [
+    "parts/v2/outfit_hoodie_left_0.png",
+    "parts/v2/outfit_hoodie_left_1.png",
+    "parts/v2/outfit_hoodie_left_2.png",
+    "parts/v2/outfit_hoodie_left_3.png"
+   ],
+   "up": [
+    "parts/v2/outfit_hoodie_up_0.png",
+    "parts/v2/outfit_hoodie_up_1.png",
+    "parts/v2/outfit_hoodie_up_2.png",
+    "parts/v2/outfit_hoodie_up_3.png"
+   ]
+  },
+  "knit": {
+   "down": [
+    "parts/v2/outfit_knit_down_0.png",
+    "parts/v2/outfit_knit_down_1.png",
+    "parts/v2/outfit_knit_down_2.png",
+    "parts/v2/outfit_knit_down_3.png"
+   ],
+   "left": [
+    "parts/v2/outfit_knit_left_0.png",
+    "parts/v2/outfit_knit_left_1.png",
+    "parts/v2/outfit_knit_left_2.png",
+    "parts/v2/outfit_knit_left_3.png"
+   ],
+   "up": [
+    "parts/v2/outfit_knit_up_0.png",
+    "parts/v2/outfit_knit_up_1.png",
+    "parts/v2/outfit_knit_up_2.png",
+    "parts/v2/outfit_knit_up_3.png"
+   ]
+  },
+  "shirt": {
+   "down": [
+    "parts/v2/outfit_shirt_down_0.png",
+    "parts/v2/outfit_shirt_down_1.png",
+    "parts/v2/outfit_shirt_down_2.png",
+    "parts/v2/outfit_shirt_down_3.png"
+   ],
+   "left": [
+    "parts/v2/outfit_shirt_left_0.png",
+    "parts/v2/outfit_shirt_left_1.png",
+    "parts/v2/outfit_shirt_left_2.png",
+    "parts/v2/outfit_shirt_left_3.png"
+   ],
+   "up": [
+    "parts/v2/outfit_shirt_up_0.png",
+    "parts/v2/outfit_shirt_up_1.png",
+    "parts/v2/outfit_shirt_up_2.png",
+    "parts/v2/outfit_shirt_up_3.png"
+   ]
+  },
+  "suit": {
+   "down": [
+    "parts/v2/outfit_suit_down_0.png",
+    "parts/v2/outfit_suit_down_1.png",
+    "parts/v2/outfit_suit_down_2.png",
+    "parts/v2/outfit_suit_down_3.png"
+   ],
+   "left": [
+    "parts/v2/outfit_suit_left_0.png",
+    "parts/v2/outfit_suit_left_1.png",
+    "parts/v2/outfit_suit_left_2.png",
+    "parts/v2/outfit_suit_left_3.png"
+   ],
+   "up": [
+    "parts/v2/outfit_suit_up_0.png",
+    "parts/v2/outfit_suit_up_1.png",
+    "parts/v2/outfit_suit_up_2.png",
+    "parts/v2/outfit_suit_up_3.png"
+   ]
+  }
+ },
+ "hair": {
+  "bob": {
+   "down": [
+    "parts/v2/hair_bob_down_0.png",
+    "parts/v2/hair_bob_down_1.png",
+    "parts/v2/hair_bob_down_2.png",
+    "parts/v2/hair_bob_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_bob_left_0.png",
+    "parts/v2/hair_bob_left_1.png",
+    "parts/v2/hair_bob_left_2.png",
+    "parts/v2/hair_bob_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_bob_up_0.png",
+    "parts/v2/hair_bob_up_1.png",
+    "parts/v2/hair_bob_up_2.png",
+    "parts/v2/hair_bob_up_3.png"
+   ]
+  },
+  "bun": {
+   "down": [
+    "parts/v2/hair_bun_down_0.png",
+    "parts/v2/hair_bun_down_1.png",
+    "parts/v2/hair_bun_down_2.png",
+    "parts/v2/hair_bun_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_bun_left_0.png",
+    "parts/v2/hair_bun_left_1.png",
+    "parts/v2/hair_bun_left_2.png",
+    "parts/v2/hair_bun_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_bun_up_0.png",
+    "parts/v2/hair_bun_up_1.png",
+    "parts/v2/hair_bun_up_2.png",
+    "parts/v2/hair_bun_up_3.png"
+   ]
+  },
+  "buzz": {
+   "down": [
+    "parts/v2/hair_buzz_down_0.png",
+    "parts/v2/hair_buzz_down_1.png",
+    "parts/v2/hair_buzz_down_2.png",
+    "parts/v2/hair_buzz_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_buzz_left_0.png",
+    "parts/v2/hair_buzz_left_1.png",
+    "parts/v2/hair_buzz_left_2.png",
+    "parts/v2/hair_buzz_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_buzz_up_0.png",
+    "parts/v2/hair_buzz_up_1.png",
+    "parts/v2/hair_buzz_up_2.png",
+    "parts/v2/hair_buzz_up_3.png"
+   ]
+  },
+  "comma": {
+   "down": [
+    "parts/v2/hair_comma_down_0.png",
+    "parts/v2/hair_comma_down_1.png",
+    "parts/v2/hair_comma_down_2.png",
+    "parts/v2/hair_comma_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_comma_left_0.png",
+    "parts/v2/hair_comma_left_1.png",
+    "parts/v2/hair_comma_left_2.png",
+    "parts/v2/hair_comma_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_comma_up_0.png",
+    "parts/v2/hair_comma_up_1.png",
+    "parts/v2/hair_comma_up_2.png",
+    "parts/v2/hair_comma_up_3.png"
+   ]
+  },
+  "crop": {
+   "down": [
+    "parts/v2/hair_crop_down_0.png",
+    "parts/v2/hair_crop_down_1.png",
+    "parts/v2/hair_crop_down_2.png",
+    "parts/v2/hair_crop_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_crop_left_0.png",
+    "parts/v2/hair_crop_left_1.png",
+    "parts/v2/hair_crop_left_2.png",
+    "parts/v2/hair_crop_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_crop_up_0.png",
+    "parts/v2/hair_crop_up_1.png",
+    "parts/v2/hair_crop_up_2.png",
+    "parts/v2/hair_crop_up_3.png"
+   ]
+  },
+  "dandy": {
+   "down": [
+    "parts/v2/hair_dandy_down_0.png",
+    "parts/v2/hair_dandy_down_1.png",
+    "parts/v2/hair_dandy_down_2.png",
+    "parts/v2/hair_dandy_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_dandy_left_0.png",
+    "parts/v2/hair_dandy_left_1.png",
+    "parts/v2/hair_dandy_left_2.png",
+    "parts/v2/hair_dandy_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_dandy_up_0.png",
+    "parts/v2/hair_dandy_up_1.png",
+    "parts/v2/hair_dandy_up_2.png",
+    "parts/v2/hair_dandy_up_3.png"
+   ]
+  },
+  "halfup": {
+   "down": [
+    "parts/v2/hair_halfup_down_0.png",
+    "parts/v2/hair_halfup_down_1.png",
+    "parts/v2/hair_halfup_down_2.png",
+    "parts/v2/hair_halfup_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_halfup_left_0.png",
+    "parts/v2/hair_halfup_left_1.png",
+    "parts/v2/hair_halfup_left_2.png",
+    "parts/v2/hair_halfup_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_halfup_up_0.png",
+    "parts/v2/hair_halfup_up_1.png",
+    "parts/v2/hair_halfup_up_2.png",
+    "parts/v2/hair_halfup_up_3.png"
+   ]
+  },
+  "long": {
+   "down": [
+    "parts/v2/hair_long_down_0.png",
+    "parts/v2/hair_long_down_1.png",
+    "parts/v2/hair_long_down_2.png",
+    "parts/v2/hair_long_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_long_left_0.png",
+    "parts/v2/hair_long_left_1.png",
+    "parts/v2/hair_long_left_2.png",
+    "parts/v2/hair_long_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_long_up_0.png",
+    "parts/v2/hair_long_up_1.png",
+    "parts/v2/hair_long_up_2.png",
+    "parts/v2/hair_long_up_3.png"
+   ]
+  },
+  "perm": {
+   "down": [
+    "parts/v2/hair_perm_down_0.png",
+    "parts/v2/hair_perm_down_1.png",
+    "parts/v2/hair_perm_down_2.png",
+    "parts/v2/hair_perm_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_perm_left_0.png",
+    "parts/v2/hair_perm_left_1.png",
+    "parts/v2/hair_perm_left_2.png",
+    "parts/v2/hair_perm_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_perm_up_0.png",
+    "parts/v2/hair_perm_up_1.png",
+    "parts/v2/hair_perm_up_2.png",
+    "parts/v2/hair_perm_up_3.png"
+   ]
+  },
+  "pomade": {
+   "down": [
+    "parts/v2/hair_pomade_down_0.png",
+    "parts/v2/hair_pomade_down_1.png",
+    "parts/v2/hair_pomade_down_2.png",
+    "parts/v2/hair_pomade_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_pomade_left_0.png",
+    "parts/v2/hair_pomade_left_1.png",
+    "parts/v2/hair_pomade_left_2.png",
+    "parts/v2/hair_pomade_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_pomade_up_0.png",
+    "parts/v2/hair_pomade_up_1.png",
+    "parts/v2/hair_pomade_up_2.png",
+    "parts/v2/hair_pomade_up_3.png"
+   ]
+  },
+  "ponytail": {
+   "down": [
+    "parts/v2/hair_ponytail_down_0.png",
+    "parts/v2/hair_ponytail_down_1.png",
+    "parts/v2/hair_ponytail_down_2.png",
+    "parts/v2/hair_ponytail_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_ponytail_left_0.png",
+    "parts/v2/hair_ponytail_left_1.png",
+    "parts/v2/hair_ponytail_left_2.png",
+    "parts/v2/hair_ponytail_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_ponytail_up_0.png",
+    "parts/v2/hair_ponytail_up_1.png",
+    "parts/v2/hair_ponytail_up_2.png",
+    "parts/v2/hair_ponytail_up_3.png"
+   ]
+  },
+  "short_f": {
+   "down": [
+    "parts/v2/hair_short_f_down_0.png",
+    "parts/v2/hair_short_f_down_1.png",
+    "parts/v2/hair_short_f_down_2.png",
+    "parts/v2/hair_short_f_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_short_f_left_0.png",
+    "parts/v2/hair_short_f_left_1.png",
+    "parts/v2/hair_short_f_left_2.png",
+    "parts/v2/hair_short_f_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_short_f_up_0.png",
+    "parts/v2/hair_short_f_up_1.png",
+    "parts/v2/hair_short_f_up_2.png",
+    "parts/v2/hair_short_f_up_3.png"
+   ]
+  },
+  "twin": {
+   "down": [
+    "parts/v2/hair_twin_down_0.png",
+    "parts/v2/hair_twin_down_1.png",
+    "parts/v2/hair_twin_down_2.png",
+    "parts/v2/hair_twin_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_twin_left_0.png",
+    "parts/v2/hair_twin_left_1.png",
+    "parts/v2/hair_twin_left_2.png",
+    "parts/v2/hair_twin_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_twin_up_0.png",
+    "parts/v2/hair_twin_up_1.png",
+    "parts/v2/hair_twin_up_2.png",
+    "parts/v2/hair_twin_up_3.png"
+   ]
+  },
+  "twoblock": {
+   "down": [
+    "parts/v2/hair_twoblock_down_0.png",
+    "parts/v2/hair_twoblock_down_1.png",
+    "parts/v2/hair_twoblock_down_2.png",
+    "parts/v2/hair_twoblock_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_twoblock_left_0.png",
+    "parts/v2/hair_twoblock_left_1.png",
+    "parts/v2/hair_twoblock_left_2.png",
+    "parts/v2/hair_twoblock_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_twoblock_up_0.png",
+    "parts/v2/hair_twoblock_up_1.png",
+    "parts/v2/hair_twoblock_up_2.png",
+    "parts/v2/hair_twoblock_up_3.png"
+   ]
+  },
+  "wave": {
+   "down": [
+    "parts/v2/hair_wave_down_0.png",
+    "parts/v2/hair_wave_down_1.png",
+    "parts/v2/hair_wave_down_2.png",
+    "parts/v2/hair_wave_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_wave_left_0.png",
+    "parts/v2/hair_wave_left_1.png",
+    "parts/v2/hair_wave_left_2.png",
+    "parts/v2/hair_wave_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_wave_up_0.png",
+    "parts/v2/hair_wave_up_1.png",
+    "parts/v2/hair_wave_up_2.png",
+    "parts/v2/hair_wave_up_3.png"
+   ]
+  },
+  "wolf": {
+   "down": [
+    "parts/v2/hair_wolf_down_0.png",
+    "parts/v2/hair_wolf_down_1.png",
+    "parts/v2/hair_wolf_down_2.png",
+    "parts/v2/hair_wolf_down_3.png"
+   ],
+   "left": [
+    "parts/v2/hair_wolf_left_0.png",
+    "parts/v2/hair_wolf_left_1.png",
+    "parts/v2/hair_wolf_left_2.png",
+    "parts/v2/hair_wolf_left_3.png"
+   ],
+   "up": [
+    "parts/v2/hair_wolf_up_0.png",
+    "parts/v2/hair_wolf_up_1.png",
+    "parts/v2/hair_wolf_up_2.png",
+    "parts/v2/hair_wolf_up_3.png"
+   ]
+  }
+ },
+ "face": {
+  "cat": {
+   "down": [
+    "parts/v2/face_cat_down_0.png",
+    "parts/v2/face_cat_down_1.png",
+    "parts/v2/face_cat_down_2.png",
+    "parts/v2/face_cat_down_3.png"
+   ]
+  },
+  "closed": {
+   "down": [
+    "parts/v2/face_closed_down_0.png",
+    "parts/v2/face_closed_down_1.png",
+    "parts/v2/face_closed_down_2.png",
+    "parts/v2/face_closed_down_3.png"
+   ]
+  },
+  "smile": {
+   "down": [
+    "parts/v2/face_smile_down_0.png",
+    "parts/v2/face_smile_down_1.png",
+    "parts/v2/face_smile_down_2.png",
+    "parts/v2/face_smile_down_3.png"
+   ]
+  }
+ },
+ "faceFrame": {
+  "cx": 121.0,
+  "chin": 169,
+  "fw": 127
+ }
+}

@@ -1,0 +1,11 @@
+# 관리자 키 (secret.example.json 을 복사해서 만듦)
+secret.json
+# 하객 기록 (식장마다 새로)
+data/guests.json
+# 작업 중 임시 파일
+work/
+public/parts/v4/
+parts-raw/v5/v5-all-100-images.zip
+node_modules/
+__pycache__/
+*.log

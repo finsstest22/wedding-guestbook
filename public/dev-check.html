@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>걷기 전체 점검</title>
+<style>body{margin:0;background:#7cbf52;font:12px sans-serif}canvas{display:block}</style></head>
+<body>
+<canvas id="c"></canvas>
+<script src="js/sprite.js"></script>
+<script src="js/avatar.js"></script>
+<script>
+// 식장 화면(scene.js)과 같은 방법으로 그린다: 옷 × 머리 × (서 있기, 앞, 왼, 오, 뒤)
+window.drawCheck = async function (bodies, heads, scale = 0.5, frame = 2) {
+  await Avatar.load();
+  const dirs = ['stand', 'down', 'left', 'right', 'up'];
+  const cw = 70, ch = 140;
+  const c = document.getElementById('c');
+  c.width = cw * dirs.length * heads.length; c.height = ch * bodies.length;
+  const x = c.getContext('2d');
+  x.fillStyle = '#7cbf52'; x.fillRect(0, 0, c.width, c.height);
+  x.font = '10px sans-serif';
+  bodies.forEach((bid, r) => heads.forEach((hid, hi) => dirs.forEach((d, di) => {
+    const L = Avatar.normalize({ body: bid, head: hid, eyes: 'round', mouth: 'smile', hair: '#43302a' });
+    const a = Avatar.compose(L);
+    const k = scale, cx = (hi * dirs.length + di) * cw + cw / 2, cy = r * ch + ch - 6;
+    x.save(); x.imageSmoothingEnabled = true;
+    if (d === 'stand') {
+      x.drawImage(a, cx - a.neck.x * k, cy - a.height * k, a.width * k, a.height * k);
+    } else {
+      const body = Avatar.walkBody(L, d, frame);
+      const view = d === 'up' ? 'back' : (d === 'left' || d === 'right') ? 'side' : 'front';
+      const head = Avatar.composeHead(L, view);
+      const kb = k * Math.max(0.85, Math.min(1.2, (a.height - a.neck.y) / (body.height - body.neck.y)));
+      const by = cy - body.height * kb, ny = by + body.neck.y * kb;
+      x.drawImage(body, cx - body.neck.x * kb, by, body.width * kb, body.height * kb);
+      x.translate(cx, ny); if (d === 'right') x.scale(-1, 1);
+      x.drawImage(head, -head.anchor.x * k, -head.anchor.y * k, head.width * k, head.height * k);
+    }
+    x.restore();
+    if (di === 0) { x.fillStyle = '#000'; x.fillText(bid + '/' + hid, cx - 33, r * ch + 10); }
+  })));
+  return c.toDataURL('image/jpeg', 0.8).split(',')[1];
+};
+</script>
+</body></html>

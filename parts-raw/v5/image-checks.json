@@ -1,0 +1,602 @@
+[
+  {
+    "name": "outfit__suit_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff13f111"
+  },
+  {
+    "name": "outfit__suit_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff11ef12"
+  },
+  {
+    "name": "outfit__shirt_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff11ee15"
+  },
+  {
+    "name": "outfit__shirt_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff11f018"
+  },
+  {
+    "name": "outfit__knit_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff11ed1a"
+  },
+  {
+    "name": "outfit__knit_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff0fec17"
+  },
+  {
+    "name": "outfit__blouse_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10f10d"
+  },
+  {
+    "name": "outfit__blouse_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10eb13"
+  },
+  {
+    "name": "outfit__slacks_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff11f011"
+  },
+  {
+    "name": "outfit__slacks_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff11ee10"
+  },
+  {
+    "name": "outfit__jeans_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ee12"
+  },
+  {
+    "name": "outfit__jeans_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff11ee12"
+  },
+  {
+    "name": "outfit__pleats_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed11"
+  },
+  {
+    "name": "outfit__pleats_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef13"
+  },
+  {
+    "name": "outfit__jacket_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ef10"
+  },
+  {
+    "name": "outfit__jacket_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ec11"
+  },
+  {
+    "name": "outfit__cardigan_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef13"
+  },
+  {
+    "name": "outfit__cardigan_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef0f"
+  },
+  {
+    "name": "outfit__hoodie_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10eb12"
+  },
+  {
+    "name": "outfit__hoodie_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ec12"
+  },
+  {
+    "name": "outfit__tshirt_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ee0f"
+  },
+  {
+    "name": "outfit__tshirt_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed10"
+  },
+  {
+    "name": "outfit__vest_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed11"
+  },
+  {
+    "name": "outfit__vest_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef12"
+  },
+  {
+    "name": "outfit__coat_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed11"
+  },
+  {
+    "name": "outfit__coat_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff0fed0f"
+  },
+  {
+    "name": "outfit__overall_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff11ec12"
+  },
+  {
+    "name": "outfit__overall_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ed13"
+  },
+  {
+    "name": "outfit__onepiece_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ee10"
+  },
+  {
+    "name": "outfit__onepiece_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12f00d"
+  },
+  {
+    "name": "outfit__flower_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ee11"
+  },
+  {
+    "name": "outfit__flower_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff0fe91e"
+  },
+  {
+    "name": "outfit__black_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef13"
+  },
+  {
+    "name": "outfit__black_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12f013"
+  },
+  {
+    "name": "outfit__blue_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12f015"
+  },
+  {
+    "name": "outfit__blue_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ef0e"
+  },
+  {
+    "name": "outfit__hanbok_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ee15"
+  },
+  {
+    "name": "outfit__hanbok_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed14"
+  },
+  {
+    "name": "outfit__hanbok2_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ee17"
+  },
+  {
+    "name": "outfit__hanbok2_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ec15"
+  },
+  {
+    "name": "outfit__hanbok3_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10f016"
+  },
+  {
+    "name": "outfit__hanbok3_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12f211"
+  },
+  {
+    "name": "hair__twoblock",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff0eee1d"
+  },
+  {
+    "name": "hair__comma",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ee12"
+  },
+  {
+    "name": "hair__perm",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ee18"
+  },
+  {
+    "name": "hair__downperm",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ec15"
+  },
+  {
+    "name": "hair__pomade",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff13ed15"
+  },
+  {
+    "name": "hair__dandy",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed14"
+  },
+  {
+    "name": "hair__swallow",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef13"
+  },
+  {
+    "name": "hair__leaf",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef13"
+  },
+  {
+    "name": "hair__crop",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef0f"
+  },
+  {
+    "name": "hair__slick",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ee13"
+  },
+  {
+    "name": "hair__up_m",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10f015"
+  },
+  {
+    "name": "hair__parted",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed11"
+  },
+  {
+    "name": "hair__spike",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef0e"
+  },
+  {
+    "name": "hair__asperm",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ed16"
+  },
+  {
+    "name": "hair__shaggy",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ee17"
+  },
+  {
+    "name": "hair__twoblock_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef13"
+  },
+  {
+    "name": "hair__comma_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef15"
+  },
+  {
+    "name": "hair__perm_f",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12eb10"
+  },
+  {
+    "name": "hair__bob",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef13"
+  },
+  {
+    "name": "hair__ponytail",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff11f019"
+  },
+  {
+    "name": "hair__bun",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed17"
+  },
+  {
+    "name": "hair__twin",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ed15"
+  },
+  {
+    "name": "hair__long",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed10"
+  },
+  {
+    "name": "hair__wave",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff13ed14"
+  },
+  {
+    "name": "hair__halfup",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff13f116"
+  },
+  {
+    "name": "hair__updo",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef16"
+  },
+  {
+    "name": "hair__sidetail",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff13ed14"
+  },
+  {
+    "name": "hair__chignon",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ec16"
+  },
+  {
+    "name": "hair__bobwave",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ec14"
+  },
+  {
+    "name": "hair__halter",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff13f018"
+  },
+  {
+    "name": "eyes__round",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff0fed0f"
+  },
+  {
+    "name": "eyes__droopy",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff0fee10"
+  },
+  {
+    "name": "eyes__cat",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff0fef0e"
+  },
+  {
+    "name": "eyes__thin",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef0f"
+  },
+  {
+    "name": "eyes__sparkle",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef13"
+  },
+  {
+    "name": "eyes__double",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed16"
+  },
+  {
+    "name": "eyes__lash",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10f00f"
+  },
+  {
+    "name": "eyes__dot",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed12"
+  },
+  {
+    "name": "eyes__sleepy",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ef11"
+  },
+  {
+    "name": "eyes__smile",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff11ef10"
+  },
+  {
+    "name": "eyes__mole",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10f00f"
+  },
+  {
+    "name": "brows__straight",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ee0f"
+  },
+  {
+    "name": "brows__arch",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef13"
+  },
+  {
+    "name": "brows__thick",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12f014"
+  },
+  {
+    "name": "brows__thin",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ee17"
+  },
+  {
+    "name": "brows__droopy",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ef0e"
+  },
+  {
+    "name": "brows__angled",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff0def11"
+  },
+  {
+    "name": "mouth__smile",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff0fee0f"
+  },
+  {
+    "name": "mouth__grin",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10eb17"
+  },
+  {
+    "name": "mouth__flat",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff0fec13"
+  },
+  {
+    "name": "mouth__cat",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10f010"
+  },
+  {
+    "name": "mouth__open",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed17"
+  },
+  {
+    "name": "mouth__teeth",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff11ec17"
+  },
+  {
+    "name": "mouth__pout",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ef13"
+  },
+  {
+    "name": "cheek__blush",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ef12"
+  },
+  {
+    "name": "cheek__blush2",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff0fef12"
+  },
+  {
+    "name": "cheek__freckle",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff12ef11"
+  },
+  {
+    "name": "cheek__mole",
+    "width": 1536,
+    "height": 1024,
+    "corner": "ff10ed11"
+  }
+]

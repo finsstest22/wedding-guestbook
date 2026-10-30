@@ -1,0 +1,16 @@
+{
+  "groom": { "name": "민준" },
+  "bride": { "name": "서연" },
+  "date": "2026.12.12",
+  "venue": "",
+  "title": "우리의 결혼식에 와줘서 고마워요",
+  "coupleMessages": ["오늘 정말 행복해요!", "와줘서 고마워요 💕", "맛있게 드시고 가세요!"],
+  "photoMilestone": 50,
+  "art": {
+    "background": "img/venue.webp",
+    "groom": "img/groom.png",
+    "bride": "img/bride.png"
+  },
+  "publicUrl": "",
+  "port": 3000
+}

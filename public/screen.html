@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>픽셀 방명록 · 식장 스크린</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="screen-body">
+  <canvas id="stage" aria-label="하객 캐릭터들이 꽃길을 걸어 다니는 예식장 화면"></canvas>
+
+  <div class="overlay title-card pixel-card" id="titleCard">
+    <div class="names"><span id="groomName">신랑</span> <span class="heart">♥</span> <span id="brideName">신부</span></div>
+    <div class="sub" id="subTitle"></div>
+  </div>
+
+  <div class="overlay count-card pixel-card" id="countCard">하객 <b id="count">0</b>명 입장</div>
+
+  <div class="overlay qr-card pixel-card" id="qrCard">
+    <canvas id="qr" width="10" height="10"></canvas>
+    <div>QR 찍고 꽃길로 입장!</div>
+    <div class="url" id="qrUrl"></div>
+  </div>
+
+  <div class="overlay toast-wrap" id="toasts"></div>
+
+  <figure class="overlay photo-card hidden" id="photoCard">
+    <canvas id="photoImg"></canvas>
+    <figcaption id="photoCaption"></figcaption>
+  </figure>
+  <div class="overlay status-dot" id="status" title="연결 상태"></div>
+  <button class="demo-btn pixel-card hidden" id="demoBtn" type="button">⏸ 데모 하객 멈추기</button>
+
+  <div class="help hidden" id="help">
+    <div><kbd>F</kbd> 전체화면</div>
+    <div><kbd>Q</kbd> QR 코드 보이기/숨기기</div>
+    <div><kbd>T</kbd> 제목·인원 보이기/숨기기</div>
+    <div><kbd>P</kbd> 단체사진 찍기</div>
+    <div><kbd>S</kbd> 마지막 단체사진 저장</div>
+    <div><kbd>D</kbd> 데모 하객 추가</div>
+    <div><kbd>A</kbd> 데모 하객 자동 입장 멈추기/다시 시작</div>
+    <div><kbd>H</kbd> 이 도움말</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
+  <script src="js/sprite.js"></script>
+  <script src="js/avatar.js"></script>
+  <script src="js/scene.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/screen.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>픽셀 방명록 · 관리</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<main class="page">
+  <h1>방명록 관리</h1>
+  <p class="lead">남겨진 축하 메시지를 보고, 부적절한 글은 지우고, 엑셀로 저장할 수 있어요.</p>
+
+  <form id="login" class="toolbar">
+    <input class="input" id="key" type="password" placeholder="관리자 키 (secret.json의 adminKey)" style="max-width:340px" autocomplete="current-password">
+    <button class="btn">들어가기</button>
+    <span class="error" id="loginError" style="text-align:left"></span>
+  </form>
+
+  <section id="panel" class="hidden">
+    <div class="toolbar">
+      <button class="btn" id="csv">엑셀(CSV)로 저장</button>
+      <button class="btn ghost" id="refresh">새로고침</button>
+      <span style="color:var(--muted)">총 <b id="total">0</b>명</span>
+    </div>
+    <div class="guest-list" id="list"></div>
+  </section>
+</main>
+
+<script src="js/sprite.js"></script>
+<script src="js/avatar.js"></script>
+<script src="js/store.js"></script>
+<script>
+(function () {
+  const $ = id => document.getElementById(id);
+  let key = sessionStorage.getItem('pg-admin') || '';
+  let guests = [];
+
+  async function enter(k) {
+    if (!(await Store.checkAdmin(k))) { $('loginError').textContent = '관리자 키가 올바르지 않아요.'; return; }
+    key = k;
+    try { sessionStorage.setItem('pg-admin', k); } catch {}
+    $('login').classList.add('hidden');
+    $('panel').classList.remove('hidden');
+    load();
+  }
+
+  async function load() {
+    await Avatar.load();
+    await Avatar.loadV3();
+    guests = await Store.list();
+    $('total').textContent = guests.length;
+    const list = $('list');
+    list.innerHTML = '';
+    if (!guests.length) { list.innerHTML = '<p class="empty">아직 남겨진 방명록이 없어요.</p>'; return; }
+    [...guests].reverse().forEach(g => {
+      const row = document.createElement('div');
+      row.className = 'guest-row';
+      const c = document.createElement('canvas');
+      const pic = Avatar.isV2(g.look) && Avatar.ready && Avatar.compose(g.look) ? Avatar.compose(g.look) : Sprite.render(Sprite.sanitizeLook(g.look), 'down', 0);
+      c.width = pic.width; c.height = pic.height;
+      if (Avatar.isV2(g.look)) { c.style.width = 'auto'; c.style.height = '64px'; c.style.imageRendering = 'auto'; }
+      c.getContext('2d').drawImage(pic, 0, 0);
+      const info = document.createElement('div');
+      const n = document.createElement('div'); n.className = 'n'; n.textContent = g.name;
+      const meta = document.createElement('small');
+      meta.textContent = [g.side === 'groom' ? '신랑측' : g.side === 'bride' ? '신부측' : '', new Date(g.createdAt).toLocaleString('ko-KR')].filter(Boolean).join(' · ');
+      n.appendChild(meta);
+      const m = document.createElement('div'); m.className = 'm'; m.textContent = g.message;
+      info.append(n, m);
+      const del = document.createElement('button');
+      del.className = 'del'; del.textContent = '삭제';
+      del.onclick = async () => {
+        if (!confirm(`${g.name}님의 방명록을 지울까요? 스크린에서도 사라져요.`)) return;
+        try { await Store.remove(g.id, key); load(); } catch (e) { alert(e.message); }
+      };
+      row.append(c, info, del);
+      list.appendChild(row);
+    });
+  }
+
+  $('login').onsubmit = e => { e.preventDefault(); enter($('key').value); };
+  $('refresh').onclick = load;
+  $('csv').onclick = () => {
+    const esc = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+    const rows = [['이름', '구분', '메시지', '시간']].concat(guests.map(g => [
+      g.name, g.side === 'groom' ? '신랑측' : g.side === 'bride' ? '신부측' : '', g.message, new Date(g.createdAt).toLocaleString('ko-KR')
+    ]));
+    const blob = new Blob(['﻿' + rows.map(r => r.map(esc).join(',')).join('\r\n')], { type: 'text/csv;charset=utf-8' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = '방명록.csv';
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  };
+
+  if (key) enter(key);
+})();
+</script>
+</body>
+</html>
